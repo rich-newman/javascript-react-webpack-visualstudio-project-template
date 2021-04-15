@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="FA9AD238-D807-40E7-AFF6-0B1CBEF98995" Version="1.0" Language="en-US" Publisher="Rich Newman" />
+        <DisplayName>React JavaScript HTML Application Template</DisplayName>
+        <Description xml:space="preserve">A project template for creating an application with an HTML page, a JavaScript React code file, and a CSS file. Bundled with Webpack.</Description>
+        <License>Resources\LICENSE</License>
+        <Icon>Resources\JavaScriptReact.ico</Icon>
+        <PreviewImage>Resources\JavaScriptReact.ico</PreviewImage>
+        <Tags>JavaScript;React</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0,17.0)" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.6.1,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\JavaScriptReactHTMLApp.zip" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,17.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>

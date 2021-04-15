@@ -1,0 +1,24 @@
+packages
+
+# User files
+*.suo
+*.user
+*.sln.docstates
+.vs/
+node_modules/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Bb]in/
+[Oo]bj/
+bundle.js
+bundle.js.map
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# zipcontents solution file if open project
+TypeScriptReactHTMLApp.sln
