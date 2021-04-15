@@ -25,9 +25,6 @@
                                 "targets": "defaults"
                             }],
                             "@babel/preset-react"  // Supports React
-                        ],
-                        plugins: [
-                            "@babel/plugin-proposal-class-properties" // Supports class properties in JS
                         ]
                     }
                 }]

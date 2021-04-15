@@ -2,9 +2,11 @@
 import ReactDOM from "react-dom";
 
 class Greeter extends React.Component {
-    // Uses the class fields proposal for JavaScript -
-    // https://github.com/tc39/proposal-class-fields
-    state = { time: new Date() };  
+
+    constructor(props) {
+        super(props);
+        this.state = { time: new Date() };
+    }
 
     componentDidMount() {
         this.interval = setInterval(() => this.setState({ time: new Date() }), 500);
