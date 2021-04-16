@@ -6,8 +6,6 @@ A template for new projects in Visual Studio 2017 and Visual Studio 2019 that cr
 
 The project contains an HTML file, a CSS file and a JavaScript file with some basic sample code.  The JavaScript file can contain React code.
 
-This project is identical to the project created by the [TypeScript with React Application Template](https://github.com/rich-newman/typescript-react-webpack-visualstudio-project-template), except that the code is in JavaScript not TypeScript.
-
 **What It Does**
 
 When started with F5 a project created with this template will start a web server and show a ticking time in the selected web browser, which can be Internet Explorer.  The code to show the time is in a JavaScript class which creates and renders a React component.
@@ -19,6 +17,10 @@ At the time of writing this template has not been released to Visual Studio Mark
 **Debugging in Visual Studio**
 
 As with the [HTML Application with TypeScript template](https://marketplace.visualstudio.com/items?itemName=Rich-Newman.TypeScriptHTMLApplicationTemplate) and the [TypeScript with React HTML Application Template](https://github.com/rich-newman/typescript-react-webpack-visualstudio-project-template), this template allows debugging from Visual Studio in Chrome, Edge and Internet Explorer. Just create a project with the template, wait for the Node modules to auto-install, set a breakpoint in Visual Studio, and hit F5. There is no need to use the browser development tools. This makes the template useful as an HTML plus JavaScript playground.
+
+**Relationshipt to TypeScript Version**
+
+The project created by this template is identical to the project created by the [TypeScript with React Application Template](https://github.com/rich-newman/typescript-react-webpack-visualstudio-project-template), except that the code is in JavaScript not TypeScript and it uses Babel to transpile rather than the TypeScript compiler (see below).
 
 **Node Modules, Babel and Webpack**
 
