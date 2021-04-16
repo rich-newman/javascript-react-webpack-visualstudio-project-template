@@ -35,7 +35,7 @@ Babel isn't completely magical: there are some complex JavaScript language featu
 `['@babel/preset-env', {
 	"targets": "defaults",
 	"useBuiltIns": "usage",
-	"corejs": "3.9"
+	"corejs": "3.10"
 }]`
 
 **Where the Template Appears**
