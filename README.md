@@ -12,7 +12,7 @@ When started with F5 a project created with this template will start a web serve
 
 **Installation**
 
-At the time of writing this template has not been released to Visual Studio Marketplace, and thus is not available in the extensions dialog in Visual Studio.  To install it, clone the Github project, load the solution file in Visual Studio, do a release build, and then doubleclick the .vsix file that is created as a result.  The usual extension install process will run and let you install to Visual Studio 2017 and/or Visual Studio 2019 if they are installed.  The extension can then be uninstalled from the Manage Extensions dialog as usual.
+The built template can be installed from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Rich-Newman.ReactJavaScriptHTMLApplicationTemplate), or from within Visual Studio. Search for 'React JavaScript HTML Application Template' in the extensions dialog.
 
 **Debugging in Visual Studio**
 
