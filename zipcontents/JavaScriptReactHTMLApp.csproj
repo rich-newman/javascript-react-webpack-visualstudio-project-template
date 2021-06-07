@@ -71,6 +71,7 @@
   <ItemGroup>
     <Content Include="package.json" />
     <Content Include="webpack.config.js" />
+    <Content Include="package-lock.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
