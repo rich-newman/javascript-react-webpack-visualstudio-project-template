@@ -9,6 +9,7 @@ on the official Visual Studio extension gallery.
 
 - Upgrade npm module versions to latest: @babel/core 7.14.3, React 17.0.2, Webpack 5.38.1, babel-loader 8.2.2
 - Remove ANSI color codes from Webpack build output so you can read it without the hieroglyphics
+- Added package-lock.json to project to avoid semver issues
 
 ## 1.0
 
