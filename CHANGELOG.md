@@ -3,6 +3,12 @@
 These are the changes to each version that have been released
 on the official Visual Studio extension gallery.
 
+## 1.2
+
+**2023-06-02**
+
+- Project inevitably broken by npm package updates since release.  Update npm package dependencies to fix this.
+
 ## 1.1
 
 **2021-06-07**

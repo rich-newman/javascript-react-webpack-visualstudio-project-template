@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="FA9AD238-D807-40E7-AFF6-0B1CBEF98995" Version="1.1" Language="en-US" Publisher="Rich Newman" />
+        <Identity Id="FA9AD238-D807-40E7-AFF6-0B1CBEF98995" Version="1.2" Language="en-US" Publisher="Rich Newman" />
         <DisplayName>React JavaScript HTML Application Template</DisplayName>
         <Description xml:space="preserve">A project template for creating an application with an HTML page, a JavaScript React code file, and a CSS file. Bundled with Webpack.</Description>
         <MoreInfo>https://github.com/rich-newman/javascript-react-webpack-visualstudio-project-template</MoreInfo>
